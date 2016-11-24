@@ -1,0 +1,31 @@
+.body {
+    background-color: #ffdf00;
+}
+
+#map {
+    height: 500px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 6px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #4b3a02;
+}
+
+#searchbox
+{
+    background-color: rgb(255, 223, 0);
+    background-image: linear-gradient(#fff, #fff5b3);    
+    border-width: 4px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #4b3a02;            
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px auto 50px auto;
+    overflow: hidden; /* Clear floats */
+}

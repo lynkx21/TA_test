@@ -1,0 +1,15 @@
+,name,address,extAddress,locality,postalCode,country,openingDays,openingHours
+0,Vigeland Museum,Nobels gate 32,['Frogner Park'],Oslo,['0268'],['Norway'],['\nTue - Sun\n'],['12:00 pm - 4:00 pm']
+1,Sognsvann Lake,Sognsveien 235,[],Oslo,['0863'],['Norway'],[],[]
+3,The Royal Palace,Det Kongelige Slott,[],Oslo,['0010'],['Norway'],[],[]
+4,Munch Museum,Toeyengata 53,[],Oslo,['0578'],['Norway'],['\nSun - Sat\n'],['10:00 am - 5:00 pm']
+5,Astrup Fearnley Museet,Astrup Fearnley Museet,[],Oslo,['0252'],['Norway'],"['\nTue - Wed\n', '\nThu\n', '\nFri\n', '\nSat - Sun\n']","['12:00 pm - 5:00 pm', '12:00 pm - 7:00 pm', '12:00 pm - 5:00 pm', '11:00 am - 5:00 pm']"
+6,Akershus Castle and Fortress (Akershus Slott og Festning),Myntgata 5,[],Oslo,[],['Norway'],[],[]
+7,Oslo City Hall (Oslo Radhus),Fridtjof Nansens plass,[],Oslo,['0037'],['Norway'],['\nSun - Sat\n'],['9:00 am - 4:00 pm']
+8,Norwegian Museum of Technology,Kjelsaasveien 143,[],Oslo,['0491'],['Norway'],"['\nTue - Fri\n', '\nSat - Sun\n']","['9:00 am - 4:00 pm', '11:00 am - 6:00 pm']"
+9,The Norwegian National Opera & Ballet,Kirsten Flagstads Pl. 1,[],Oslo,['0150'],['Norway'],"['\nSun\n', '\nMon - Fri\n', '\nSat\n']","['12:00 pm - 6:00 pm', '10:00 am - 8:00 pm', '11:00 am - 6:00 pm']"
+10,Fram Polar Ship Museum,Bygdoeynesveien 39,[],Oslo,['0286'],['Norway'],['\nSun - Sat\n'],['10:00 am - 6:00 pm']
+11,National Museum - National Gallery,Universitetsgaten 13,[],Oslo,[],['Norway'],"['\nTue - Wed\n', '\nThu\n', '\nFri\n', '\nSat - Sun\n']","['10:00 am - 6:00 pm', '10:00 am - 7:00 pm', '10:00 am - 6:00 pm', '11:00 am - 5:00 pm']"
+12,The Norwegian Museum of Cultural History,Museumsveien 10,[],Oslo,['0287'],['Norway'],"['\nMon - Fri\n', '\nSat - Sun\n']","['11:00 am - 3:00 pm', '11:00 am - 4:00 pm']"
+13,Holmenkollen Ski Museum and Ski Jump Tower,Kongeveien 5,[],Oslo,['0787'],['Norway'],['\nSun - Sat\n'],['10:00 am - 4:00 pm']
+2,The Nobel Peace Center,Rådhusbrygga,['City Hall Square'],Oslo,['0250'],['Norway'],['\nTue - Sun\n'],['10:00 am - 6:00 pm']

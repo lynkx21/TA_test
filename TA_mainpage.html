@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="main_stylesheet.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="search">
+      <input id="searchbox" type="text" placeholder="Type here">  
+      <p>
+      <input id="submit" type="submit" value="Go!">
+    </div>
+
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 59.924076, lng: 10.750092};
+	var markerOptions = {icon: "C:/Users/Leonardo/Pictures/map-marker-icon.png"};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 11,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          markerOptions: markerOptions 
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbaMbHvupYTFZwsi9w9hKezNE_x1v4ItE&callback=initMap">
+    </script>
+  </body>
+</html>

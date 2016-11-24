@@ -1,0 +1,31 @@
+# urllib is a module that opens a communication link with a URL
+import urllib.request as ur
+
+thisUrl = "http://www.tripadvisor.com"
+
+handle = ur.urlopen(thisUrl)
+
+print(handle.read()[:150])
+
+# HTMLparser is a module that lets you parse an HTML file
+import urllib.request
+from html.parser import HTMLParser
+
+urltext = []
+
+# Define HTML parser
+class parseText(HTMLParser):
+
+    def handle_data(self, data):
+        if data != '\n':
+            urltext.append(data)
+
+# Create an instance for parseText
+lParser = parseText()
+
+# Feed the HTML file into parser
+lParser.feed(urllib.request.urlopen(thisUrl).read())
+lParser.close()
+for item in urltext:
+    print(item)
+
